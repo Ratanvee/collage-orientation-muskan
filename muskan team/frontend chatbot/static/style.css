@@ -1,0 +1,129 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-box {
+    /* min-height: 70%; */
+    height: 70%;
+    max-height: 78%;
+    /* pad: 30px; */
+    /* overflow-y: scroll; */
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+}
+
+#chat-box, .input-send-btn{
+    flex-grow: 1;
+}
+
+#chat-log div {
+    /* margin-bottom: 10px; */
+}
+
+#chat-log{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+
+}
+
+
+#user-input {
+    min-width: 70%;
+    width: 90%;
+    padding: 8px;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+#send-btn {
+    padding: 8px;
+    /* width: 7%; */
+    
+}
+
+#user-input, #send-btn{
+    flex-grow: 1;
+}
+
+
+
+.input-send-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.usersend{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* justify-content: flex-start; */
+    /* border: 1px solid green; */
+    /* align-items: center; */
+}
+
+.botreturn{
+    display: flex;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    /* width: 300px; */
+}
+
+
+.content{
+    width: max-content;
+    /* max-width: 50%; */
+    /* border: 1px solid black; */
+    /* align-content: center; */
+    display: flex;
+    align-items: center;
+}
+
+#chat-log img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+  
+#message{
+    height: 30px;
+    width: max-content;
+    max-width: 500px;
+    /* border: 1px solid red ; */
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    background-color: #46434352;
+    border-radius: 15px;
+}
