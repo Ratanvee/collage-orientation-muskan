@@ -35,20 +35,6 @@
       "context_set": ""
     },
     {
-      "tag": "hobby",
-      "patterns": [
-        "what is your hobby",
-        "what you want to do",
-        "what you like"
-      ],
-      "responses": [
-        "I like fuck fuck",
-        "I Want to fuck you",
-        "My hobby is fuck you"
-      ],
-      "context_set": ""
-    },
-    {
       "tag": "goodbye",
       "patterns": [
         "cya",
@@ -621,9 +607,7 @@
       ],
       "responses": [
         "please use appropriate language",
-        "Maintaining decency would be appreciated",
-        "Teri maa ki Chu",
-        "Bkl Gali mat de teri maa chod duga"
+        "Maintaining decency would be appreciated"
       ],
       "context_set": ""
     },
